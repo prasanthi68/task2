@@ -1,0 +1,88 @@
+body{
+	background: #FFF633 ;
+}
+.maindiv{
+	background: #FF7433;
+	display: flex;
+	justify-content: space-around;
+	margin: 5%;
+
+}
+.leftdiv{
+	background: #FF9633 ;
+	margin: 5%;
+	border-radius: 4%;
+	box-shadow: 4px 4px 4px 4px;
+	width: 25%;
+	text-align: center;
+	height: 45%;
+
+}
+.rightdiv{
+	background: #1F6637;
+	margin: 5%;
+	border-radius: 4%;
+	box-shadow: 4px 4px 4px 4px;
+	width: 50%;
+	padding: 2%;
+}
+img{
+	border-radius: 4%;
+	margin: 4%;
+	width: 50%;
+	height: 30%;
+}
+/*.....mini laptop.....*/
+@media(min-width:781px ) and (max-width: 992px){
+.maindiv{
+flex-direction: row-reverse;
+}
+.card{
+width: 100%;
+}
+.data{
+width: 100%
+}
+.card{
+display: flex;
+}
+.c1,.c2{
+width: 49%;
+}
+}
+/*......mobile.......*/
+@media(min-width:320px ) and (max-width: 480px){
+.maindiv{
+flex-direction: column-reverse;
+}
+.card{
+width: 100%;
+}
+.data{
+width: 100%
+}
+.card{
+display: flex;
+}
+.c1,.c2{
+width: 49%;
+}
+}
+/*...........tab.......*/
+@media(min-width:781px ) and (max-width: 900px){
+.maindiv{
+flex-direction: row-reverse;
+}
+.card{
+width: 100%;
+}
+.data{
+width: 100%
+}
+.card{
+display: flex;
+}
+.c1,.c2{
+width: 49%;
+}
+}

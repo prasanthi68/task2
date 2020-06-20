@@ -1,0 +1,50 @@
+body{
+	background-color: #FFE033;
+}
+
+#main{
+	background-color: #FFE033;
+	margin: 15%;
+	display: flex;
+	justify-content: space-around;
+	border-radius: 4%
+
+}
+.sub{
+	background-color: #33FFC4;
+	width: 30%;
+	margin: 4%;
+	border-radius: 5%;
+	text-align: center;
+	box-shadow: 4px 4px 5px 5px;
+	height: 25%;
+}
+.sub:hover{
+	color: #91DDAA;
+}
+img{
+	width: 70%;
+	height: 50%;
+	border-radius: 15%;
+	margin: 4%;
+}
+p{
+	font-size: 20px;
+
+}
+a{
+	text-decoration: none;
+
+}
+a>h3{ color: white }
+h3{
+	color: black;
+}
+@media(min-width:320px ) and (max-width: 480px){
+.main{
+flex-direction: column-reverse;
+}
+.sub{
+width: 100%;
+}
+}
